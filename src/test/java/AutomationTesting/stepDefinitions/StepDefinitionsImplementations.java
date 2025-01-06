@@ -30,6 +30,7 @@ public class StepDefinitionsImplementations extends BaseTest {
 	public void syso() {
 		// TODO Auto-generated method stub
             System.out.println("post completion of IST TIME");
+            System.out.println("now its EST TIME");
 	}
 	
 	@Given("^Logged in with the username (.+) and password (.+)$") //regex expressiom

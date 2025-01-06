@@ -23,8 +23,11 @@ public class Listeners extends BaseTest implements ITestListener{
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestStart(result);
 		test= extent.createTest(result.getMethod().getMethodName());
-		extentTest.set(test);//this statement allocates a unique thread id for the test it is performing so that concurrent/parallel tests can be run without ny errors
+		extentTest.set(test);
+		System.out.println("HAI THIS IS EST");
+		//this statement allocates a unique thread id for the test it is performing so that concurrent/parallel tests can be run without ny errors
 	}                        // a map is created with thread id,test to uniquely identify the test
+	
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
