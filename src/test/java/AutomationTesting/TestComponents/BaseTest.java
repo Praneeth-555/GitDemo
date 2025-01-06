@@ -29,7 +29,10 @@ import AutomationTesting.pageObjects.LandingPage;
 public class BaseTest {
   public WebDriver d;
   
-  
+  public void VerifyProductDisplay(String productName)
+	{
+		System.out.println("Branching");
+	}
  public LandingPage landingPage;
 	
 	public WebDriver initializeDriver() throws IOException
