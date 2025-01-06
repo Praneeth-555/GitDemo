@@ -27,6 +27,11 @@ public class StepDefinitionsImplementations extends BaseTest {
 		landingPage=launchingApplication(); 
 	}
 	
+	public void syso() {
+		// TODO Auto-generated method stub
+            System.out.println("post completion of IST TIME");
+	}
+	
 	@Given("^Logged in with the username (.+) and password (.+)$") //regex expressiom
 	public void logged_in_username_and_password(String username, String password)
 	{
